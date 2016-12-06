@@ -1,0 +1,45 @@
+#navbar-links li {
+  font-weight: bold;
+  font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 2%;
+}
+
+.navbar_links:hover {
+  color: red;
+  opacity: 75%;
+  text-decoration: none;
+  border: solid black;
+  padding:20px;
+  border-radius: 7px;
+}
+.navbar {
+  width: 100%;
+  background: transparent;
+  position: fixed;
+
+}
+
+
+
+
+
+/* this is the footer */
+
+.footer{
+  background-color: black;
+  margin-top: 40px;
+}
+
+.social_links li {
+  font-size: 30px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+.social_links {
+  text-align: center;
+}
