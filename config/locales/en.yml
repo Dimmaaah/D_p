@@ -20,4 +20,15 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  welcome:
+    title: "welcome"
+    header: "Experience"
+    paragraph: "This is some english text to test the switch of language.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facilis autem itaque tempora necessitatibus ipsa harum aliquid, voluptates quia a, ex enim omnis praesentium, reiciendis voluptas quibusdam repudiandae voluptatum minima?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facilis autem itaque tempora necessitatibus ipsa harum aliquid, voluptates quia a, ex enim omnis praesentium, reiciendis voluptas quibusdam repudiandae voluptatum minima?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facilis autem itaque tempora necessitatibus ipsa harum aliquid, voluptates quia a, ex enim omnis praesentium, reiciendis voluptas quibusdam repudiandae voluptatum minima?"
+    educationtitle: "Education"
+    education:
+      paragraph: "Here is a list of former employers within a description work experience Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facilis autem itaque tempora necessitatibus ipsa harum aliquid, voluptates quia a, ex enim omnis praesentium, reiciendis voluptas quibusdam repudiandae voluptatum minima?"
+    motivationtitle: "Motivation"
+    motivationdes: "Here you'll find a motivational goals to express yourself toward your interviewer.loremLorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias facilis autem itaque tempora necessitatibus ipsa harum aliquid, voluptates quia a, ex enim omnis praesentium, reiciendis voluptas quibusdam repudiandae voluptatum minima?"
+    skillstitle: "MAD SKilSZZ"
+    skillsdes: "Here is some text containing information about my developer skills"
+
