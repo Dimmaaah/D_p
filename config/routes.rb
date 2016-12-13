@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  get 'home/index'
-  get 'home/projects'
-
-  get 'home/curriculum'
-  resources :posts
+  scope ":locale" do
+    get 'home/index'
+    get 'home/projects'
+    get 'home/curriculum'
+    resources :posts
+end
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
