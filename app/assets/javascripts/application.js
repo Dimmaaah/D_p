@@ -16,3 +16,19 @@
 //= require_tree .
 //= require jquery
 //= require bootstrap-sprockets
+
+
+$(function() {
+  $("#seemore").on("click", function() {
+    $("html,body").animate({"scrollTop":$("#new").offset().top},1500);
+    return false;
+  });
+});
+
+
+$(function() {
+  $("#readmore").on("click", function() {
+    $("html,body").animate({"scrollTop":$("#about_me").offset().top},1500);
+    return false;
+  });
+});
