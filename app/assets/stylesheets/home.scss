@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .picture_me {
-  background: image-url('kaguya.jpg');
+  background: image-url('');
   width: 100%;
   background-size: cover;
   height: 80vh;
@@ -45,4 +45,10 @@
     height:cover;
     overflow:auto;
     z-index: 1;
+}
+.moham {
+  width: 100%;
+  border-radius: 2em;
+  padding: 10px;
+  margin: 10px;
 }

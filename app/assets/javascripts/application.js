@@ -28,7 +28,7 @@ $(function() {
 
 $(function() {
   $("#readmore").on("click", function() {
-    $("html,body").animate({"scrollTop":$("#about_me").offset().top},1500);
+    $("html,body").animate({"scrollTop":$("#about_me").offset().top},2500);
     return false;
   });
 });

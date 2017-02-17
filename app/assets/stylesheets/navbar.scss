@@ -7,7 +7,6 @@
   font-weight: bold;
   font-family: Book Antiqua,Palatino,Palatino Linotype,Palatino LT STD,Georgia,serif;
   display: inline-block;
-  margin: 20px;
   padding: 20px;
   text-align: center;
   border-radius: 2%;
@@ -18,22 +17,18 @@
   color: red;
   opacity: 75%;
   text-decoration: none;
-  border: solid black;
-  padding:20px;
-  border-radius: 7px;
 }
 .navbar {
   margin-bottom: 30px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
+  background: transparent;
   transition: all 0.3s ease;
   display: flex;
-  padding: 8px 15px;
+  padding: 0px 0px;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid;
   margin-right: 0;
   margin-left: 0;
 }
@@ -44,7 +39,7 @@
 
 
 .social_links li {
-  font-size: 30px;
+  font-size: 20px;
   list-style-type: none;
   display: inline-block;
   margin: 0px 20px;

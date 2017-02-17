@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   scope ":locale" do
     get 'home/index'
+    get 'home/contact'
     get 'project/index'
+    get 'project/rubyrubyruby'
+    get 'project/healthyworkers'
     get 'home/curriculum'
     resources :posts
 end
