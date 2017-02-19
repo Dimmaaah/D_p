@@ -8,19 +8,60 @@
 <a href="#" onclick="this.style.backgroundColor='#009900';this.style.color='#FFFFFF';">Paint it green</a> -->
 
 <div class="container">
-  <div class="row">
-    <div class="col-md-6 col-sm-6">
-      <%= image_tag("mohammed.jpg", :alt => "Me signing a contract", class: "moham") %>
+  <div class="row section_about" >
+    <h2>Who Am I?</h2>
+    <div class="col-md-6 col-sm-12">
+      <%= image_tag("pro_pic.jpg", :alt => "Me signing a contract", class: "pro_pic") %>
     </div>
-    <div class="col-md-6 col-sm-6">
+    <div class="col-md-6 col-sm-12">
       <p><%= t 'index.about' %></p>
     </div>
   </div>
   
 </div>
 
+<section>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-6"><h1 class="pnav">curriculum vitea</h1>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-3">curriculum vitea</h2>
+            <p class="lead"><%= t 'card.cv' %></p>
+
+            <%= link_to "Check out CV.", home_curriculum_path, class: "btn btn-default" %>
+
+             <%= link_to "Download CV.", home_curriculum_path, class: "btn btn-primary pull-right" %>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6"><h1 class="pnav">Projects</h1>
+         <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-3">Projects</h2>
+            <p class="lead"><%= t 'card.portofolio' %></p>
+            <%= link_to "Check out the Projects.", project_index_path, class: "btn btn-default" %>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12"><h1 class="pnav">Contact</h1>
+         <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h2 class="display-3">Contact</h2>
+            <p class="lead"><%= t 'card.contact' %></p>
+            <%= link_to "Contact Me.", home_contact_path, class: "btn btn-danger" %>
 
 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="space">
+  
+</div>
 
 
 

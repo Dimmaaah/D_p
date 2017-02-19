@@ -3,10 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .picture_me {
-  background: image-url('');
+  background: image-url('dimma.jpg');
   width: 100%;
   background-size: cover;
-  height: 80vh;
+  height: 90vh;
   background-repeat: no-repeat;
   align-items: center;
   display: flex;
@@ -46,9 +46,11 @@
     overflow:auto;
     z-index: 1;
 }
-.moham {
-  width: 100%;
-  border-radius: 2em;
-  padding: 10px;
-  margin: 10px;
+
+.pnav {
+  text-align: center;
+}
+
+.section_about {
+  margin: 400px 0px;
 }

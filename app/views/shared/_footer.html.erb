@@ -1,19 +1,25 @@
-<footer>
-  <div id="footer" class="footer">
-    <div class="row">
-      <div class="col-md-6">  
-         <ul class="social_links">
-          <li>
-             <li><%= link_to "http://linkedin.com/in/daemien-ho", class: "social_links2" do %>
-            <%= content_tag(:i, "", class: "fa fa-linkedin fa-3x") %>
-            <% end %> </li>
 
-            <li><%= link_to "http://github.com", class: "social_links2" do %>
-            <%= content_tag(:i, "", class: "fa fa-github fa-3x") %>
-            <% end %> </li>
-          </ul>
-        </div></div>
-          </div>
+<div id="footer" class="footer">
+  <hr><h3>Also check out my social links </h3>
+  <div class="row">
+    <div class="col-md-12">  
+     <ul class="social_links">
+      <li>
+       <li><%= link_to root_path, class: "social_links2" do %>
+        <%= content_tag(:i, "", class: "fa fa-home fa-3x") %>
+        <% end %> </li>
+         <li><%= link_to "http://linkedin.com/in/daemien-ho", class: "social_links2" do %>
+        <%= content_tag(:i, "", class: "fa fa-linkedin fa-3x") %>
+        <% end %> </li>
+        <li><%= link_to home_contact_path, class: "social_links2" do %>
+        <%= content_tag(:i, "", class: "fa fa-envelope fa-3x") %>
+        <% end %> </li>
 
+        <li><%= link_to "https://github.com/Dimmaaah", class: "social_links2" do %>
+          <%= content_tag(:i, "", class: "fa fa-github fa-3x") %>
+          <% end %> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-</footer>

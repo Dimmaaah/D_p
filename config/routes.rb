@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     get 'home/contact'
     get 'project/index'
     get 'project/rubyrubyruby'
+    get 'home/contact'
     get 'project/healthyworkers'
     get 'home/curriculum'
     resources :posts
