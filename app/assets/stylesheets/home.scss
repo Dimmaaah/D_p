@@ -2,8 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body { 
+  background:url('dimma.jpg')  no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .picture_me {
-  background: image-url('dimma.jpg');
+  background: transparent;
   width: 100%;
   background-size: cover;
   height: 90vh;
@@ -52,5 +59,23 @@
 }
 
 .section_about {
-  margin: 400px 0px;
+  margin: 100px 0px;
+}
+
+
+.icons li {
+  display: inline-block;
+  font-size: 80px;
+  margin: 10px 20px;
+
+}
+
+.div_icons {
+  height: 400px;
+    justify-content: space-between;
+  text-align: center;
+}
+
+section {
+  margin-top: 0px;
 }

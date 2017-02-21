@@ -16,10 +16,25 @@ nl:
 
 
   index:
-    about: "Hallo Mijn Naam is Daemien Hope. Ik ben een ruby on rails developer. en dit is mijn portofolio site. neem ook een kijkje naar mijn curriculum vitea
+    about: "Hallo Mijn Naam is Daemien Ho.  Ik ben een ruby on rails developer. en dit is mijn portofolio site. neem ook een kijkje naar mijn curriculum vitea
             ik hoop dat het je zal bevallen en je mijn contacteerd via dimmaaah@live.nl.... lateooooorr"
+    about2: "hier heb ik nog een stukje test tekst"
+    
   card:
       cv: "Neem een kijkje op mijn CV. Dit zal je laten zien hoe geweldig ik ben als een ruby on rails developer."
       portofolio: "Neem ook eens een kijkje in mijn portfolio. Hier wordt uiteraard nog altijd aan gewerkt. Alles is constant aan het veranderen dus houd het goed in de gaten anders mis je nog weleens wat. dit is zoals gerbuikelijk tijdens de devlopment periode een voorbeeld stuk tekst om de layout van de pagina te bekijken en te editen naar mijn persoonlijke voorkeur van design. wat een onzin allemaal.. geeft je groot gelijk als je denkt dat dit allemaal onzin is dus nu zal ik stoppen met "
       contact: "Voor vragen kunt je mij bereiken op het nummer 0611223344 of mailen naar dimmaaah@live.nl of verstuur gemakkelijk via mijn form een directe mail naar mijn inbox."
     
+
+  project:
+    rubyrubyruby_p1: "RubyRubyRuby. Was mijn eindproject van de Le Wagon coding school. Dit gemaakt voor de ruby community. Dit project is opgebouwd door 3 Junior developers/ Elias, Umer & Daemien. Als lead developer kreeg ik de opdracht om het project te ontwikkelen. Tijdens het ontwikkelen heb ik gebruik gemaakt van de scrum methode waarbij wij elke ochtend een kleine meeting hebben georganiseerd in ons lokaal en zo de doelen van de dag en de palnning van de week besproken."
+    rubyrubyruby_p2: "Met al het gemakt van de wereld een baan vinden solliciteren en cv oploaden. dat kan op rubyrubyruby.com."
+    rubyrubyruby_p3: "Als developer heb ik echt genoten van de samenwerking en de inzet van mijn mede developer ook al waren wij nog lansg niet zo goed ontwikkeld,, we hebben alsnog het beste ervan gemaakt om hert project binnen de deadline af te ronden en een geweldige presentatie neer te zetten."
+    healthyworkers: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt veniam iste consectetur dicta facere ad amet quo autem vitae? Dolorem fugit eveniet, minima distinctio ipsa, asperiores. Itaque exercitationem quae reiciendis."
+    healthyworkers_p1: "Kijk eens hoe speciaal deze fucking lorem tekst is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente maxime ut in nemo placeat, minus veritatis repudiandae non rerum. Iste deserunt ullam eius modi accusamus facilis, optio, placeat delectus. Illo."
+    healthyworkers_p2: "nog meer shit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus rem, esse autem, asperiores corporis atque unde nihil odio in expedita quisquam a est earum nobis tempore soluta perferendis quasi amet!"
+    healthyworkers_p3: "En hert laatste beetje Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis qui vitae beatae laborum hic, alias perspiciatis accusantium commodi. Necessitatibus vero quae rem? Dolorum architecto, voluptas odit consequuntur, tempora incidunt illum."
+
+  knop:
+    bezoek: "Ga naar RubyRubyRuby"
+    bezoek2: "Ga naar HealthyWorkers"

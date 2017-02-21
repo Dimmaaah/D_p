@@ -19,7 +19,7 @@
 
 
 $(function() {
-  $("#seemore").on("click", function() {
+  $("#seemore").on("mouseenter", function() {
     $("html,body").animate({"scrollTop":$("#new").offset().top},1500);
     return false;
   });
@@ -27,8 +27,36 @@ $(function() {
 
 
 $(function() {
-  $("#readmore").on("click", function() {
+  $("#readmore").on("mouseenter", function() {
     $("html,body").animate({"scrollTop":$("#about_me").offset().top},2500);
     return false;
   });
 });
+
+
+
+// $(document).ready(function() {
+  
+//   $(window).scroll(function () {
+//       //if you hard code, then use console
+//       //.log to determine when you want the 
+//       //nav bar to stick.  
+//       console.log($(window).scrollTop())
+//     if ($(window).scrollTop() > 280) {
+//       $('#nav_bar').addClass('navbar-fixed');
+//     }
+//     if ($(window).scrollTop() < 281) {
+//       $('#nav_bar').removeClass('navbar-fixed');
+//     }
+//   });
+// });
+
+ $(document).ready(function() {
+  $('#section_about').hide(function() {
+    $('.white').mouseenter(function() {
+      $('#section_about').show(3000)
+    });
+  });
+});
+
+

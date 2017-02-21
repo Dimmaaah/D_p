@@ -2,24 +2,41 @@
 <html>
 <head>
   <title>Dimma</title>
+  <link href="animate.css" rel= "stylesheet">
+   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-	<div class="navbar-">
-    	<%= render "shared/navbar" %>
-	</div>
-
-	
+ 	<%= render "shared/navbar" %>
     	<%= yield %>
-	
-<div class="space">
-  
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <ul class="social-buttons"></ul>
+          <li class="social-button"></li><%= link_to root_path, class: "social_links2" do %>
+          <%= content_tag(:i, "", class: "fa fa-home fa-3x") %>
+          <% end %></li>
+          <li class="social-button"></li><%= link_to "http://linkedin.com/in/daemien-ho", class: "social_links2" do %>
+              <%= content_tag(:i, "", class: "fa fa-linkedin fa-3x") %>
+              <% end %></li>
+          <li class="social-button"></li><%= link_to home_contact_path, class: "social_links2" do %>
+              <%= content_tag(:i, "", class: "fa fa-envelope fa-3x") %>
+              <% end %></li>
+          <li class="social-button"></li><%= link_to "https://github.com/Dimmaaah", class: "social_links2" do %>
+                <%= content_tag(:i, "", class: "fa fa-github fa-3x") %>
+                <% end %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 
-  <div class="footer-b">
-  		<%= render "shared/footer" %>
- 	</div>
+
+
+   
 </body>
 </html>

@@ -6,20 +6,45 @@
 </div>
 <!-- 
 <a href="#" onclick="this.style.backgroundColor='#009900';this.style.color='#FFFFFF';">Paint it green</a> -->
-
-<div class="container">
-  <div class="row section_about" >
-    <h2>Who Am I?</h2>
-    <div class="col-md-6 col-sm-12">
-      <%= image_tag("pro_pic.jpg", :alt => "Me signing a contract", class: "pro_pic") %>
-    </div>
-    <div class="col-md-6 col-sm-12">
-      <p><%= t 'index.about' %></p>
+<div class="white">
+  <div class="container">
+<h2 id="about_me">Who Am I?</h2>
+    <div id="section_about" class="row section_about" >
+      
+      <div class="col-md-6 col-sm-12">
+        <%= image_tag("dims.png", :alt => "Me signing a contract", class: "pro_pic") %>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <p><%= t 'index.about' %></p>
+        <p><%= t 'index.about2' %></p>
+        <p><%= link_to "Bekijk Mijn CV!", home_curriculum_path, class: "btn btn-danger pull-right" %></p>
+      </div>
     </div>
   </div>
+  <section>
+  <div class="div_icons white">
+    <h2>My Development Environment</h2>
+    <ul class="icons">
+      <li> <i class="devicon-html5-plain colored"></i></li>
+      <li> <i class="devicon-ruby-plain colored"></i></li>
+      <li> <i class="devicon-rails-plain colored"></i></li>
+      <li> <i class="devicon-css3-plain colored"></i></li>
+      <li> <i class="devicon-bootstrap-plain colored"></i></li>
+      <li> <i class="devicon-ubuntu-plain colored"></i></li>
+      <li> <i class="devicon-atom-original-wordmark colored"></i></li>
+      <li> <i class="devicon-heroku-plain-wordmark colored"></i></li>
+      <li> <i class="devicon-jquery-plain-wordmark colored"></i></li>
+      <li> <i class="devicon-postgresql-plain-wordmark colored"></i></li>
+      <li> <i class="devicon-trello-plain-wordmark"></i></li>
+      <li> <i class="devicon-vim-plain"></i></li>
+      <li> <i class="devicon-firefox-plain-wordmark colored"></i></li>
+    </ul>
+  </div>
+</section>
+
   
 </div>
-
+<!--
 <section>
   <div class="container-fluid">
     <div class="row">
@@ -48,7 +73,7 @@
       <div class="col-sm-12 col-md-12"><h1 class="pnav">Contact</h1>
          <div class="jumbotron jumbotron-fluid">
           <div class="container">
-            <h2 class="display-3">Contact</h2>
+            <h2 class="display-3">Meet Me</h2>
             <p class="lead"><%= t 'card.contact' %></p>
             <%= link_to "Contact Me.", home_contact_path, class: "btn btn-danger" %>
 
@@ -59,13 +84,11 @@
     </div>
   </div>
 </section>
-<div class="space">
-  
-</div>
 
-
+-->
 
 <!--
+
 <div class="container">
   <h1 id="about_me">About me!</h1>
 
@@ -115,4 +138,5 @@
     </div>
   </a>
 </div>
- -->
+
+-->
