@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body { 
-  background:url('dimma.jpg')  no-repeat center center fixed;
+  background:url('album_1')  no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -21,7 +21,7 @@ body {
   text-align: center;
 }
 
-.tab-content {
+/*.tab-content {
   margin-top: 40px;
   padding: 2%;
 }
@@ -58,24 +58,61 @@ body {
   text-align: center;
 }
 
-.section_about {
-  margin: 100px 0px;
+
+*/
+.welcome {
+  color: white;
+  font-weight: bold;
 }
 
-
 .icons li {
-  display: inline-block;
+  justify-content: center;
   font-size: 80px;
   margin: 10px 20px;
+  display: inline-block;
 
 }
 
 .div_icons {
   height: 400px;
-    justify-content: space-between;
+  justify-content: space-between;
   text-align: center;
 }
 
-section {
+
+
+.grey {
+  background-color: #E1E1E1;
   margin-top: 0px;
+  -webkit-margin-bottom: 0px;
+  margin-bottom: 0px;
+  min-height: 70px;
+  -webkit-min-height: 70px;
+  text-align: center;
+  max-height: 320px;
+  padding-top: 5px;
+}
+
+.white {
+  padding-top: 5px;
+  width: 100%;
+  background-color: white; 
+  margin:0px; 
+  min-height: 70px;
+  text-align: center;
+}
+
+/*
+.over_me {
+  height: 200px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+}*/
+#tools {
+ 
+}
+.cent {
+  text-align: center;
+  min-height: 70px;
 }

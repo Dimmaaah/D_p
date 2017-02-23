@@ -18,20 +18,20 @@
 //= require bootstrap-sprockets
 
 
-$(function() {
-  $("#seemore").on("mouseenter", function() {
-    $("html,body").animate({"scrollTop":$("#new").offset().top},1500);
-    return false;
-  });
-});
+// $(document).ready(function() {
+//   $("#seemore").on("mouseenter", function() {
+//     $("html,body").animate({"scrollTop":$("#new").offset().top},1500);
+//     return false;
+//   });
+// });
 
 
-$(function() {
-  $("#readmore").on("mouseenter", function() {
-    $("html,body").animate({"scrollTop":$("#about_me").offset().top},2500);
-    return false;
-  });
-});
+// $(function() {
+//   $("#readmore").on("mouseenter", function() {
+//     $("html,body").animate({"scrollTop":$("#about_me").offset().top},2500);
+//     return false;
+//   });
+// });
 
 
 
@@ -51,12 +51,19 @@ $(function() {
 //   });
 // });
 
- $(document).ready(function() {
-  $('#section_about').hide(function() {
-    $('.white').mouseenter(function() {
-      $('#section_about').show(3000)
-    });
-  });
-});
+//  $(document).ready(function() {
+//   $('#section_about').hide(function() {
+//     $('.white, #readmore').mouseenter(function() {
+//       $('#section_about').show(3000)
+//     });
+//   });
+// });
 
+//   $(document).ready(function() {
+//     $('#div_icons').hide(function() {
+//       $('#tools').mouseenter(function() {
+//         $('#div_icons').slideDown("fast")
+//       });
+//     });
+//   });
 

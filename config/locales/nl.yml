@@ -1,15 +1,34 @@
 nl:
-  welcome:
-    title: "welcome"
-    header: "Ervaring"
-    paragraph: "En dit is een stukje nederlandse tekst om mijn site op te vullen er moet hier veel meer tekst in dit moet je maar ff opvullen  "
-    educationtitle: "Scholing"
+  info:
+    title: 
+      xp: "Werk Ervaring"
+    school:
+      lewagon: "Code school leert webdevelopment met als hoofd backend taal Ruby. "
+      regio: "Niets te vertellen over deze school."
+      amstel: "Niets te vertellen over deze school."
+    xp:
+      nh: "Bedienings medewerker/ Gastheer. vrantwoordelijk voor ontvangst gasten."
+      bijen: "Dit was mijn allereerste bijbaantje. Ik begon als logistiek/magazijn medewerker."
+      post: "Process operator verantwoordelijk voor het sorteren van post en het controleren van het productieproces." 
+      bart: "Verkoopmedewerker verantwoordelijkvoor het verkopen van speelgoed."
+      kvc: "Profvoetballer in het belofte team van KVC Westerlo."
+      vvv: "Profvoetballer in het belofte team van VVV Venlo"
+      levi: "Verkoopmedewerker verantwoordelijk voor verkoop, en voorraad beheer. "
+      damp: "Beheerder/Barman verantwoordelijk voor de administratie, voorraad beheer en verkoop."
+      rand: "UUitzendkracht in verkoop, logistiek en horeca."
+      healthy: "Experience designer verantwoordelijk voor het creeren van een prototype"
+    paragraph: "Ik heb veel werkervaring. Op Mijn 15e kreeg ik mijn eerste bijbaantje in de bijenkorf. nsequatur iusto eos omnis culpa, quisquam praesentium quia quos, soluta nisi ullam ratione enim natus libero iste nulla sint. Eos, voluptas! Consequuntur.En dit is een stukje nederlandse tekst om mijn site op te vullen er moet hier veel meer tekst in dit moet je maar ff opvullen  "
+    educationtitle: "School"
     education:
-      paragraph: "here is een lijst van voltooide cursussen en scholing?"
-    motivationtitle: "Motivatie"
-    motivationdes: "hiervind je een motivatie die duidelijk je ambitiesen persoonlijkheid aanhaald enz Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis id, minus voluptatem dolorem consectetur nostrum ut fugit laudantium, aperiam nesciunt enim maxime molestias, odit officia unde omnis delectus illo dignissimos.olor sit amet, consectetur adipisicing elit. Molestias facilis autem itaque tempora necessitatibus ipsa harum aliquid, voluptates quia a, ex enim omnis praesentium, reiciendis voluptas quibusdam repudiandae voluptatum minima?"
-    skillstitle: "GeKKE VaARdIGhEDEnn"
-    skillsdes: "Hier is est informatie over mijn developer vaardigenheden"
+      paragraph: "Gedwongen op jonge leeftijd een studie richting te kiezen koos ik voor iets dat mij bekend was en dat was detail-handel. dat bleek achteraf toch niet te zijn wat ik wil en heb ik besloten mezelf om te scholen tot webdeveloper. iets wat ik oprecht leuk vind en waar mijn interesses liggen."
+    motivationtitle: "Over mezelf"
+    motivationdes: "Ik ben een Junior webdeveloper met een solide begrip voor alle aspecten van front-end, backend en database development. Ik heb een sterk verlangen om mijn developers vaardigheden verder uit te breiden.   "
+    skillstitle: "Vaardigenheden"
+    skillsdes: "Dit zijn de programmeertalen/frameworks die ik beheers. Als junior developer bouw ik webapplicaties met als basis Ruby. Ik heb solide kennis van de mvc ontwerpmethode en een basisbegrip voor de CRUD methodes. ook kan ik geavanceerde css3 technieken toepassen en het implementeren van Api gems en maak ik gebruik van frameworks. "
+    projects: 
+      title: "Projecten"
+      ruby: "RubyRubyRuby is het eindproject van de coding bootcamp. Dit project is bedoeld voor de RoR community. Op deze site kun je onder anders als developer reageren op vacatures die zijn geplaats door RoR werkgevers ook kun je andere developers vragen om hulp mocht je vastlopen met je code."
+      healthy: "HealthyWorkers is een bedrijf dat streeft naar het creeren van gezonde werkomgevingen en gezonde/gelukkige werknemers.."
 
   
 
@@ -38,3 +57,7 @@ nl:
   knop:
     bezoek: "Ga naar RubyRubyRuby"
     bezoek2: "Ga naar HealthyWorkers"
+
+
+    # By working to improve your food, body, mind, and surroundings. The dashboard lets you monitor the results in real time, and gives the insights you need to make continuous improvements.
+

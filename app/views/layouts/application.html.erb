@@ -2,11 +2,12 @@
 <html>
 <head>
   <title>Dimma</title>
-  <link href="animate.css" rel= "stylesheet">
    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
 </head>
 <body>
  	<%= render "shared/navbar" %>
@@ -37,6 +38,37 @@
 
 
 
-   
+   <script type="text/javascript">
+   $(document).ready(function() {
+  $('#section_about').hide(function() {
+    $('.white, #readmore').mouseenter(function() {
+      $('#section_about').show(3000)
+    });
+  });
+});
+
+  $(document).ready(function() {
+    $('#div_icons').hide(function() {
+      $('#tools').mouseenter(function() {
+        $('#div_icons').slideDown("fast")
+      });
+    });
+  });
+
+$(document).ready(function() {
+  $("#seemore").on("mouseenter", function() {
+    $("html,body").animate({"scrollTop":$("#new").offset().top},1500);
+    return false;
+  });
+});
+
+
+$(function() {
+  $("#readmore").on("mouseenter", function() {
+    $("html,body").animate({"scrollTop":$("#about_me").offset().top},2500);
+    return false;
+  });
+});
+</script>
 </body>
 </html>

@@ -1,70 +1,179 @@
-<div class="space"></div>
 <div class="container-fluid boos">
   <div class="row">
+  <div class="space"></div>
+  <div class="container now">
+  <div class="row">
+    <div class="col-md-12 pic">
+      <div class="container pad">
+      <div class="row">
+        <div class="col-md-6">
+        <div class="col-content">
+          <%= image_tag("daemien", :alt => "rss feed", class: "profilepic") %>
+          </div>
+        </div>
+        <div class="col-md-6">
+        <div class="col-content-info">
+          <div class="pinfo">
+          <h2>Daemien Hope</h2>
+          <h4>Junior Ruby fullstack developer</h4>
+          <hr>
+          <div class="row">
+            <ul class="pinfo col-md-4 col-xs-4">
+              <li>Date of birth:</li>
+              <li>Address:</li>
+              <li>Email:</li>
+              <li>Phone:</li>
+              <li>LinkedIn:</li>
+              <li>Github:</li>
+              <li>Drivers License:</li>
+            </ul>
+            <ul class="pinfo-a col-md-6 col-xs-6">
+              <li>March 16, 1991</li>
+              <li>Comeniusstraat 189 Amsterdam</li>
+              <li>daemienho@yahoo.nl</li>
+              <li>+31 611287858</li>
+              <li><%= link_to "linkedin.com/in/daemien-ho", "http://linkedin.com/in/daemien-ho", class: "remove_link" %></li>
+              <li><%= link_to "github.com/dimmaaah", "http://github.com/dimmaaah", class: "remove_link" %></li>
+              <li>Car (B)</li>
+            </ul>
+            </div>
+            <br>
+           </div>
+           </div>
+           </div>
+         </div>
+        </div>
+      </div>
+  </div>
     <div class="col-xs-12 col-md-6">
-      <div class="pic">
-        <%= image_tag("pro_pic", :alt => "rss feed", class: "profilepic pull-left") %>
-        <div class="pinfo">
-          <ul class="pinfo">
-            <li>Name: DimmaaaH Hope</li>
-            <li>Adress</li>
-            <li>City</li>
-            <li>Position</li>
-            <li>Birthdate:</li>
-         </ul>
-       </div>
-     </div>
-     <div class="xp">
-       <h3><%= t 'welcome.header' %></h3>
-       <p><%= t 'welcome.paragraph' %></p>
-     </div>
-     <div class="ed">
-       <h3><%= t 'welcome.educationtitle' %></h3>
-       <p><%= t 'welcome.education.paragraph' %></p>
-     </div>
-     <div class="m">
-       <h3><%= t 'welcome.motivationtitle' %></h3>
-       <p><%= t 'welcome.motivationdes' %></p>
-     </div>
+      
+      <div class="m">
+       <h3><%= t 'info.motivationtitle' %></h3>
+       <p><%= t 'info.motivationdes' %></p>
+      </div>
+  <hr>
+      <div class="V">
+     <h3><%= t 'info.skillstitle' %></h1>
+      <p><%= t 'info.skillsdes' %></p>
+      <p class="em">Front-End</p>
+      <div class="iconss">
+        <i class="devicon-html5-plain-wordmark colored"></i>
+        <i class="devicon-css3-plain-wordmark colored"></i>
+        <i class="devicon-bootstrap-plain-wordmark colored"></i>
+        <i class="devicon-jquery-plain-wordmark colored"></i>
+      </div>
+      <p class="em">Back-End</p>
+      <div class="iconss">
+        <i class="devicon-ruby-plain-wordmark colored"></i>
+        <i class="devicon-rails-plain-wordmark colored"></i>
+        <i class="devicon-postgresql-plain-wordmark colored"></i>
+        <i class="devicon-github-plain-wordmark colored"></i>
+      </div>
     </div>
+      <hr>
+
+     <div class="ed">
+       <h3><%= t 'info.educationtitle' %></h3>
+       <p><%= t 'info.education.paragraph' %></p>
+       <ul>
+         <br>
+         <li class="bold">Le Wagon Coding School(BSSA Startup School)</li>
+         <p>Fullstack development - Le Wagon 2016</p>
+         <p><%= t 'info.school.lewagon' %></p>
+         <br>
+         <li class="bold">Regio College Zaandam</li>
+         <p>Retail business & management 2008 – 2010</p>
+         <p><%= t 'info.school.regio' %></p> 
+         <br>
+         <li class="bold">Amstellyceum</li>
+         <p>Vmbo-T 2003-2008</p>
+         <p><%= t 'info.school.amstel' %></p> 
+       </ul>
+       
+     </div>
+
+    </div>
+
     <div class="col-xs-12 col-md-6">
-      <h1><%= t 'welcome.skillstitle' %></h1>
-      <p><%= t 'welcome.skillsdes' %></p>
+      <div class="projecten">
+       <h3><%= t'info.projects.title' %></h3>
+       <ul>
+         <li class="bold">RubyRubyRuby</li>
+         <p><%= t 'info.projects.ruby' %></p>
+         <li class="bold">Healthy Workers</li>
+         <p><%= t 'info.projects.healthy' %></p>
+       </ul>
+      </div>
 
-      <div class="col-md-6">
+  
+
+<hr>
+    <div class="xp">
+        <h3><%= t 'info.title.xp' %></h3> 
+        <p><%= t 'info.paragraph' %></p>
+       <ul>
+         <li class="bold">Randstad 2012 - 2017</li>
+         <p><%= t 'info.xp.rand' %></p>
+         <li class="bold">PostNL 2016</li>
+         <p><%= t 'info.xp.post' %></p>
+         <li class="bold">Dampkring 2012 - 2016</li>
+         <p><%= t 'info.xp.damp' %></p>
+         <li class="bold">NH-Hotel</li>
+         <p><%= t 'info.xp.nh' %></p>
+         <li class="bold">Laundry Industry</li>
+         <p><%= t 'info.xp.damp' %></p>
+         <li class="bold">Healthy Workers - 2016 </li>
+         <p><%= t 'info.xp.healthy' %></p>
+         <li class="bold">KVC Westerlo 2011 - 2012</li>
+         <p><%= t 'info.xp.kvc' %></p>
+         <li class="bold">VVV-Venlo 2010 - 2011</li>
+         <p><%= t 'info.xp.vvv' %></p>
+         <li class="bold">Levi's 2008 - 2010</li>
+         <p><%= t 'info.xp.levi' %></p>
+         <li class="bold">Bartsmit 2007 </li>
+        <p><%= t 'info.xp.bart' %></p>
+         <li class="bold">Bijenkorf 2003 - 2007</li>
+         <p><%= t 'info.xp.bijen' %></p>
+        </ul>
+      </div>
+     
+    
+  </div>
+      
+
+ <!--      <div class="col-md-6">
+        <div class="logo_">
+          <h4>Ruby on Rails</h4>
+          <%= image_tag("logo1.png", :alt => "rss feed", class: "logol") %>
+        </div>
+        <div class="logo_">
+          <h4>Javascript</h4>
+          <%= image_tag("logo2.png", :alt => "rss feed", class: "logol") %>
+        </div>
+      </div> -->
+
+      <!-- <div class="col-md-6">
+       <div class="logo_">
+        <h4>Bootstrap</h4>
+        <%= image_tag("logo3.png", :alt => "rss feed", class: "logol") %>
+      </div>
       <div class="logo_">
-      <h4>Ruby on Rails</h4>
-     <%= image_tag("logo1.png", :alt => "rss feed", class: "logol") %>
-     </div>
-     <div class="logo_">
-      <h4>Javascript</h4>
-     <%= image_tag("logo2.png", :alt => "rss feed", class: "logol") %>
-     </div>
-     </div>
-
-     <div class="col-md-6">
-     <div class="logo_">
-      <h4>Bootstrap</h4>
-     <%= image_tag("logo3.png", :alt => "rss feed", class: "logol") %>
-     </div>
-     <div class="logo_">
-      <h4>HTML</h4>
-     <%= image_tag("logo4.png", :alt => "rss feed", class: "logol") %>
-     </div>
-     </div>
-     <div class="col-md-6">
+        <h4>HTML</h4>
+        <%= image_tag("logo4.png", :alt => "rss feed", class: "logol") %>
+      </div>
+    </div> -->
+    <!-- <div class="col-md-6">
      <div class="logo_">
       <h4>AJAX</h4>
-     <%= image_tag("logo5.png", :alt => "rss feed", class: "logol") %>
-     </div>
-     <div class="logo_">
+      <%= image_tag("logo5.png", :alt => "rss feed", class: "logol") %>
+    </div>
+    <div class="logo_">
       <h4>CSS</h4>
-     <%= image_tag("logo6.png", :alt => "rss feed", class: "logol") %>
-     </div>
+      <%= image_tag("logo6.png", :alt => "rss feed", class: "logol") %>
+    </div>
    </div>
-
-  </div>
-
+  </div> -->
+  
 
 
 </div>

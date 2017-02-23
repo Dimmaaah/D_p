@@ -8,6 +8,8 @@ Rails.application.routes.draw do
     get 'project/healthyworkers'
     get 'home/curriculum'
     resources :posts
+    match '/contacts',     to: 'contacts#new',             via: 'get'
+    resources "contacts", only: [:new, :create]
 end
 
   # The priority is based upon order of creation: first created -> highest priority.
